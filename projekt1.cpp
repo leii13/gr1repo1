@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include "nwd.cpp"
 #include "dzielniki.cpp"
 
@@ -6,6 +7,15 @@ using namespace std;
 
 #include "silnia.cpp"
 #include "potega.cpp"
+=======
+#include "pierwsza.cpp"
+#include "suma.cpp"
+
+using namespace std;
+
+
+
+>>>>>>> origin/marek
 int main() {
     int a, b;
     cout << "Podaj dwie liczby calkowite ";
@@ -35,11 +45,17 @@ int main() {
 
             cout << "Wynik: " << a << endl;
         } else if(wybor == 4) {
-            //
+            //cout << pierwsza(a);
+            if (pierwsza(a)==1){
+                cout << "Liczba " << a << " jest pierwsza.";
+            }
+            else{
+                 cout << "Liczba " << a << " nie jest pierwsza.";
+            }
         } else if(wybor == 5) {
             dzielniki(a,b);
         } else if(wybor == 6) {
-            //
+            cout << suma(a,b);
         }
     } while(wybor != 0);
     return 0;

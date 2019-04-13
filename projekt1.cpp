@@ -3,6 +3,7 @@
 using namespace std;
 
 #include "silnia.cpp"
+#include "potega.cpp"
 
 int main() {
     int a, b;
@@ -25,7 +26,9 @@ int main() {
         if(wybor == 1) {
             //
         } else if(wybor == 2) {
-            //
+            a = potega(a, b);
+
+            cout << "Wynik: " << a << endl;
         } else if(wybor == 3) {
             a = silnia(a);
 

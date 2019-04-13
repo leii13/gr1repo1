@@ -1,6 +1,9 @@
 #include <iostream>
+#include "nwd.cpp"
+#include "dzielniki.cpp"
 
 using namespace std;
+
 
 int main() {
     int a, b;
@@ -21,7 +24,7 @@ int main() {
         cout << "6. suma" << endl;
         cin >> wybor;
         if(wybor == 1) {
-            //
+                NWD(a,b);
         } else if(wybor == 2) {
             //
         } else if(wybor == 3) {
@@ -29,7 +32,7 @@ int main() {
         } else if(wybor == 4) {
             //
         } else if(wybor == 5) {
-            //
+            dzielniki(a,b);
         } else if(wybor == 6) {
             //
         }

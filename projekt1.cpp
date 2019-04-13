@@ -1,10 +1,11 @@
 #include <iostream>
+#include "nwd.cpp"
+#include "dzielniki.cpp"
 
 using namespace std;
 
 #include "silnia.cpp"
 #include "potega.cpp"
-
 int main() {
     int a, b;
     cout << "Podaj dwie liczby calkowite ";
@@ -24,7 +25,7 @@ int main() {
         cout << "6. suma" << endl;
         cin >> wybor;
         if(wybor == 1) {
-            //
+                NWD(a,b);
         } else if(wybor == 2) {
             a = potega(a, b);
 
@@ -36,7 +37,7 @@ int main() {
         } else if(wybor == 4) {
             //
         } else if(wybor == 5) {
-            //
+            dzielniki(a,b);
         } else if(wybor == 6) {
             //
         }

@@ -1,6 +1,10 @@
 #include <iostream>
+#include "pierwsza.cpp"
+#include "suma.cpp"
 
 using namespace std;
+
+
 
 int main() {
     int a, b;
@@ -27,11 +31,17 @@ int main() {
         } else if(wybor == 3) {
             //
         } else if(wybor == 4) {
-            //
+            //cout << pierwsza(a);
+            if (pierwsza(a)==1){
+                cout << "Liczba " << a << " jest pierwsza.";
+            }
+            else{
+                 cout << "Liczba " << a << " nie jest pierwsza.";
+            }
         } else if(wybor == 5) {
             //
         } else if(wybor == 6) {
-            //
+            cout << suma(a,b);
         }
     } while(wybor != 0);
     return 0;

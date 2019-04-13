@@ -1,5 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
 #include "nwd.cpp"
 #include "dzielniki.cpp"
 
@@ -7,7 +6,6 @@ using namespace std;
 
 #include "silnia.cpp"
 #include "potega.cpp"
-=======
 #include "pierwsza.cpp"
 #include "suma.cpp"
 
@@ -15,7 +13,6 @@ using namespace std;
 
 
 
->>>>>>> origin/marek
 int main() {
     int a, b;
     cout << "Podaj dwie liczby calkowite ";

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#include "silnia.cpp"
+
 int main() {
     int a, b;
     cout << "Podaj dwie liczby calkowite ";
@@ -25,7 +27,9 @@ int main() {
         } else if(wybor == 2) {
             //
         } else if(wybor == 3) {
-            //
+            a = silnia(a);
+
+            cout << "Wynik: " << a << endl;
         } else if(wybor == 4) {
             //
         } else if(wybor == 5) {

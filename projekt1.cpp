@@ -34,13 +34,9 @@ int main() {
         if(wybor == 1) {
                 NWD(a,b);
         } else if(wybor == 2) {
-            a = potega(a, b);
-
-            cout << "Wynik: " << a << endl;
+            cout << "potega: " << potega(a, b) << endl;
         } else if(wybor == 3) {
-            a = silnia(a);
-
-            cout << "Wynik: " << a << endl;
+            cout << "silnia: " << silnia(a) << endl;
         } else if(wybor == 4) {
             //cout << pierwsza(a);
             if (pierwsza(a)==1){
